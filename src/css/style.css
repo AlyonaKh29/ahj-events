@@ -1,0 +1,77 @@
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.header {
+  padding: 10px 30px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header__title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.content {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
+  background-color: #f6f8f9;
+}
+
+.card {
+  width: 300px;
+  margin-bottom: 0;
+  padding: 8px 30px;
+  margin: 0 auto 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+ 
+}
+
+.expelling-game {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  cursor: url('../img/icon-sledgehammer-115689902.png') 50 0, auto;
+}
+
+.status {
+  font-size: 18px;
+}
+
+.space {
+  width: 150px;
+  height: 150px;
+  margin: 0 15px 30px;
+  background: rgb(100, 203, 119);
+  border-radius: 50%;
+}
+
+.space:has(.character) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.character:active {
+  background: rgb(0, 0, 0);
+}
+
+.character {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.hidden {
+  display: none;
+}
+
